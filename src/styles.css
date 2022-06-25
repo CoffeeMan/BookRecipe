@@ -1,0 +1,64 @@
+
+/*Header*/
+
+.menu-items{
+  color: white;
+  padding: 5px;
+}
+
+.menu-items:visited{
+  color: white;
+}
+
+.menu-items:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.header-color {
+  background-color: #bec9ed;
+}
+
+.logo-img {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-items: center;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+/*Main-page*/
+.top-main-block{
+  padding: 40px;
+}
+
+/*Img bloc style*/
+
+.bloc-img {
+  background-image: url("assets/images/c3e09aec0de685e7e90f08a6e9eec12d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*Product list*/
+
+.top-product-list-block{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0 10px 0;
+}
+
+.list-group-item{
+  cursor: pointer;
+}
+
+.list-group-item:hover{
+  background-color: darkblue;
+  color: white;
+}
